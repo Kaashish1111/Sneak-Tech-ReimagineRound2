@@ -198,3 +198,14 @@ function detailAnimation() {
 burger.addEventListener('click', navToggle);
 window.addEventListener('mousemove', cursor);
 window.addEventListener('mouseover', activeCursor);
+
+
+
+function loaderAnimation() {
+    var loader = document.querySelector("#loader")
+    setTimeout(function () {
+        loader.style.top = "-100%"
+    }, 4200)
+}
+
+loaderAnimation()
