@@ -10,6 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+   
     <link rel="stylesheet" href="style.css" />
     <title>OpenAI Next-Generation Technology</title>
   </head>
@@ -21,6 +23,63 @@
         <h1>OpenAI</h1>
     </div>
     <div id="fixed-image">
+
+
+        <nav class="navbar">
+            <div class="navbar-logo">
+                <!-- <a href="#"><img src="33fd8316d0-removebg-preview.jpeg" alt="OpenAI Logo"></a> -->
+            </div>
+            <ul class="navbar-links">
+                <li class="dropdown">
+                    <a href="#">Research</a>
+                    <div class="dropdown-content">
+                        <a href="#">AI Research</a>
+                        <a href="#">Publications</a>
+                        <a href="#">Collaborations</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Products</a>
+                    <div class="dropdown-content">
+                        <a href="#">GPT-4</a>
+                        <a href="#">API</a>
+                        <a href="#">Pricing</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Safety</a>
+                    <div class="dropdown-content">
+                        <a href="#">Safety Research</a>
+                        <a href="#">Ethics</a>
+                        <a href="#">Guidelines</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Company</a>
+                    <div class="dropdown-content">
+                        <a href="#">About Us</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Contact</a>
+                    </div>
+                </li>
+            </ul>
+            <div class="navbar-cta">
+                <a href="#"><img src="search-icon-2044x2048-psdrpqwp.jpeg" alt="Search Icon" class="search-icon"></a>
+            </div>
+            <div class="navbar-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+        <script>
+            const mobileMenu = document.getElementById('mobile-menu');
+            const navbarLinks = document.querySelector('.navbar-links');
+            mobileMenu.addEventListener('click', () => {
+                navbarLinks.classList.toggle('active');
+            });
+        </script>
+
 
     </div>
 
@@ -108,6 +167,49 @@
           <div class="reveal-text"></div>
         </div>
       </section>
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col">
+              <h4>Company</h4>
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Our Services</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Affiliate Program</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Get Help</h4>
+              <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Shipping</a></li>
+                <li><a href="#">Returns</a></li>
+                <li><a href="#">Order Status</a></li>
+                <li><a href="#">Payment Options</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Online Shop</h4>
+              <ul>
+                <li><a href="#">Watch</a></li>
+                <li><a href="#">Bag</a></li>
+                <li><a href="#">Shoes</a></li>
+                <li><a href="#">Dress</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Follow Us</h4>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </main>
     <nav class="nav-bar">
       <ul class="nav-links">
