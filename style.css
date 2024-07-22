@@ -745,13 +745,13 @@ body.hide {
     }
 
     .navbar-links.active {
-        display: flex;d
+        display: flex;
     }
 
     .navbar-links li {
-        text-align: center;
-        width: 100%;
-    }
+        text-align:center;
+        width:100%;
+      }
 
     .navbar-cta {
         display: none;
