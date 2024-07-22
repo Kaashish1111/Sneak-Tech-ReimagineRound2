@@ -167,8 +167,8 @@ body.hide {
   justify-content: space-between;
   color: white;
   width: 80%;
-  margin: auto;
-  padding: 2rem 0rem;
+  margin: 2rem;
+  padding: 3rem 3rem;
   z-index: 2;
 }
 
