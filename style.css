@@ -725,6 +725,9 @@ body.hide {
 }
 
 @media(max-width: 767px) {
+    #logo{
+        display: none;
+    }
   .footer-col {
       width: 50%;
       margin-bottom: 30px;
@@ -758,7 +761,7 @@ body.hide {
     }
 
     .navbar-toggle {
-        display: flex;
+        display: none;
     }
 
 }
