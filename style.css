@@ -677,7 +677,7 @@ body.hide {
   position: absolute;
   left: 0;
   bottom: -10px;
-  background-color: #e91e63;
+  background-color:rgb(68, 250, 65);
   height: 2px;
   width: 50px;
 }
